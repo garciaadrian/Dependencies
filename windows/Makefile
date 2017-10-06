@@ -582,7 +582,7 @@ clementine-deps: clementine-build-deps clementine-gst-plugins openssl glibnetwor
 		-platform linux-g++-32 \
 		-xplatform win32-g++ -device-option CROSS_COMPILE=i686-w64-mingw32- \
 		-prefix $(stow)/$(qt) \
-		-no-phonon -no-webkit -no-xmlpatterns -no-qt3support \
+		-no-phonon -webkit -no-xmlpatterns -no-qt3support \
 		-no-declarative -no-audio-backend \
 		-no-script -no-scripttools \
 		-nomake demos -nomake examples \
